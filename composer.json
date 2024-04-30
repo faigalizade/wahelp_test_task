@@ -1,0 +1,21 @@
+{
+    "name": "faiqalizade/wahelp",
+    "description": "Test task for Wahelp",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "app/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "faigalizade",
+            "email": "faiq.alizade.00@mail.ru"
+        }
+    ],
+    "require": {
+      "ext-pdo": "*"
+    }
+}

@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS newsletter (
+    id INTEGER PRIMARY KEY AUTO_INCREMENT,
+    text TEXT NOT NULL,
+    subject VARCHAR(255) NOT NULL,
+    job_id INTEGER NOT NULL,
+    FOREIGN KEY (job_id) REFERENCes jobs(id)
+);
